@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Menedżer kryptowalut</string>
+    <string name="notification">POWIADOMIENIA</string>
+    <string name="notificationIntro">gdy przekroczy: </string>
+    <string name="notificationSetToast">Powiadomienie zostało ustawione.</string>
+    <string name="notificationDeleteToast">Powiadomienie zostało usunięte.</string>
+    <string name="notificationTitle1">kurs powyżej</string>
+    <string name="notificationTitle2">za 1</string>
+    <string name="webServiceError">Pobranie danych nie powiodło się.</string>
+</resources>
