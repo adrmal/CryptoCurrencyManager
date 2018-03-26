@@ -13,7 +13,8 @@ public enum CryptoCurrency implements Currency {
     LISK("lisk", "LSK"),
     LITECOIN("litecoin", "LTC"),
     DASH("dash", "DASH"),
-    GAME_CREDITS("game credits", "GAME");
+    GAME_CREDITS("game credits", "GAME"),
+    RIPPLE("ripple", "XRP");
 
     private String name;
     private String code;

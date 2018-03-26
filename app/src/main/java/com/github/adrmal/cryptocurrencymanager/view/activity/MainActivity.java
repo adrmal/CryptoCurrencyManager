@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.method.TransformationMethod;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
@@ -99,6 +98,7 @@ public class MainActivity extends Activity {
                     utils.showToast(R.string.notificationSetToast);
                 }
                 catch (NumberFormatException e) {
+                    throw new RuntimeException(e);
                 }
             }
         });
