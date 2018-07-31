@@ -60,7 +60,7 @@ public class CurrencyBroadcastReceiver extends WakefulBroadcastReceiver{
                 + " " + currency.getCode();
         String notificationText = TextFormatter.formatCurrency(exchangeRate);
         Notification.Builder builder = new Notification.Builder(context)
-                .setSmallIcon(R.drawable.ic_launcher_background)
+                .setSmallIcon(R.mipmap.icon_24dp)
                 .setContentTitle(notificationTitle)
                 .setContentText(notificationText)
                 .setContentIntent(resultPendingIntent);

@@ -6,4 +6,4 @@
     android:layout_height="wrap_content"
     android:textStyle="bold"
     android:textAllCaps="true"
-    android:textColor="@color/colorBlack" />
+    android:textColor="@color/colorPrimaryDark" />
