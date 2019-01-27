@@ -26,7 +26,7 @@ import okhttp3.Response;
 public class CurrencyBroadcastReceiver extends WakefulBroadcastReceiver{
 
     @Override
-    public void onReceive(final Context context, Intent intent) {
+    public void onReceive(Context context, Intent intent) {
         checkCurrencyAndShowNotificationIfNeeded(context, CryptoCurrency.BITCOIN);
         checkCurrencyAndShowNotificationIfNeeded(context, CryptoCurrency.ETHEREUM);
     }

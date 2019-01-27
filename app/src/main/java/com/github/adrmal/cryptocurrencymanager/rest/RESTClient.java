@@ -9,7 +9,7 @@ import okhttp3.Request;
 public class RESTClient {
 
     private OkHttpClient okHttpClient;
-    private static final String BASE_URL = "https://www.bitbay.net/API/Public/";
+    private static final String BASE_URL = "https://bitbay.net/API/Public/";
 
     public RESTClient() {
         okHttpClient = new OkHttpClient();
